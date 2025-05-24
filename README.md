@@ -26,9 +26,9 @@ Note: The platform folder name is based on the name of your device. For example,
 4. Edit the shortcut file and insert approrpriate the ScummVM ID from the [ScummVM Compatibility list](https://www.scummvm.org/compatibility/)
 e.g. scumm:monkey
 
-- A button / L1 button = Left click
+- B button / L1 button = Left click
 - R1 button = Right click
-- B button = Cancel
+- A button = Cancel
 - Start button = ScummVM menu
 - Menu button = opens NextUI menu
 - Suspend and sleep seem to work
