@@ -36,7 +36,7 @@ e.g. scumm:monkey
 - R2 button (hold down + dpad) = Fine mouse movement
 - Menu button = opens NextUI menu
 
-### Tips
+### Tips / Known Issues
 
 - NextUI/MinUI save states will not work - this is a limitation of ScummVM. Instead, open up the ScummVM menu and use the Save/Load functions there.
 - NextUI suspend and sleep is working - power button behaves as per normal.
@@ -46,7 +46,7 @@ e.g. scumm:monkey
 - pablodaniel : you can avoid music crackling if you set a fixed cpu speed in the nextui frontend menu, either powersave or normal
 - pablodaniel : emulator options > timing > framerate cap to 60 hz also seems to help with the crackling
 
-## Work in Progress / Known Issues
+## Work in Progress
 
 - Create ScummVM launcher shortcut
 - Auto-detect games
