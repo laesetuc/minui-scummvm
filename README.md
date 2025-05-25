@@ -47,6 +47,11 @@ e.g. scumm:monkey
 - Auto-detect games
 - Is it possible to map MinUI/NextUI shortcuts to ScummVM shortcuts?  Perhaps quick save/quick load
 
+### Tips
+
+- pablodaniel : you can avoid music crackling if you set a fixed cpu speed in the nextui frontend menu, either powersave or normal
+- pablodaniel : emulator options > timing > framerate cap to 60 hz also seems to help with the crackling
+
 ## Acknowledgements
 
 - [MinUI](https://github.com/shauninman/MinUI) by Shaun Inman
