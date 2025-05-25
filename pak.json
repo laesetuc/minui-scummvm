@@ -1,0 +1,13 @@
+{
+    "name": "ScummVM",
+    "version": "0.2.0",
+    "type": "EMU",
+    "description": "ScummVM emulator for NextUI.",
+    "author": "Cuteseal",
+    "repo_url": "https://github.com/laesetuc/minui-scummvm",
+    "release_filename": "ScummVM.pak.zip",
+    "platforms": [
+      "tg5040"
+    ],
+    "launch": "launch.sh"
+  }

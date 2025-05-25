@@ -26,21 +26,26 @@ Note: The platform folder name is based on the name of your device. For example,
 4. Edit the shortcut file and insert approrpriate the ScummVM ID from the [ScummVM Compatibility list](https://www.scummvm.org/compatibility/)
 e.g. scumm:monkey
 
+**Default key bindings:**
 - A button / L1 button = Left click
-- R1 button = Right click
-- B button = Cancel
-- Start button = ScummVM menu
+- B button / R1 button = Right click
+- X button = Period (Skips a line of dialogue)
+- Y button = P (Pick Up)
+- Start button = Open ScummVM menu
+- Select button = Escape (Pause game)
+- R2 button (hold down + dpad) = Fine mouse movement
 - Menu button = opens NextUI menu
-- Suspend and sleep seem to work
+
 - NextUI/MinUI save states will not work - this is a limitation of ScummVM. Instead, open up the ScummVM menu and use the Save/Load functions there.
+- NextUI suspend and sleep is working - power button behaves as per normal.
+- CPU is set to normal by default, to overcome choppy audio
+- Use NextUI Menu > Emulator > RetroPad mapping to remap buttons to ScummVM/mouse/keyboard controls
 
 ## Work in Progress / Known Issues
 
-- Sound can get a little choppy in parts
-- Key bindings should be remapped to be friendlier (maybe B = right click)
-- Is it possible to map MinUI/NextUI shortcuts to ScummVM shortcuts?  Perhaps quick save/quick load
 - Create ScummVM launcher shortcut
 - Auto-detect games
+- Is it possible to map MinUI/NextUI shortcuts to ScummVM shortcuts?  Perhaps quick save/quick load
 
 ## Acknowledgements
 
