@@ -32,7 +32,7 @@ e.g. scumm:monkey
 - X button = Period (Skips a line of dialogue)
 - Y button = P (Pick Up)
 - Start button = Open ScummVM menu
-- Select button = Escape (Pause game)
+- Select button = Escape (Skip cutscene)
 - R2 button (hold down + dpad) = Fine mouse movement
 - Menu button = opens NextUI menu
 
@@ -40,7 +40,7 @@ e.g. scumm:monkey
 
 - NextUI/MinUI save states will not work - this is a limitation of ScummVM. Instead, open up the ScummVM menu and use the Save/Load functions there.
 - NextUI suspend and sleep is working - power button behaves as per normal.
-- CPU is set to normal by default, to overcome choppy audio
+- CPU is set to Powersave by default, to overcome choppy audio
 - Use NextUI Menu > Emulator > RetroPad mapping to remap buttons to ScummVM/mouse/keyboard controls
 
 - pablodaniel : you can avoid music crackling if you set a fixed cpu speed in the nextui frontend menu, either powersave or normal
