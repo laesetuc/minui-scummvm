@@ -1,5 +1,5 @@
 # minui-scummvm
-Experimetal ScummVM emulator for NextUI
+Experimental ScummVM emulator for NextUI
 
 ## Requirements
 
@@ -53,9 +53,10 @@ e.g. `scumm:monkey`
 - CPU is set to Powersave by default, to overcome choppy audio
 - Use NextUI Menu > Emulator > RetroPad mapping to remap buttons to ScummVM/mouse/keyboard controls
 - Use the NextUI menu to quit.  The 'Quit' function from the ScummVM launcher causes NextUI to hang for some reason.
-- 
+
 - pablodaniel : you can avoid music crackling if you set a fixed cpu speed in the nextui frontend menu, either powersave or normal
 - pablodaniel : emulator options > timing > framerate cap to 60 hz also seems to help with the crackling
+- chris_disco for his work with the m3u and the scummvm.ini settings
 
 ## Work in Progress
 
