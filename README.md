@@ -56,7 +56,6 @@ e.g. `scumm:monkey`
 
 - pablodaniel : you can avoid music crackling if you set a fixed cpu speed in the nextui frontend menu, either powersave or normal
 - pablodaniel : emulator options > timing > framerate cap to 60 hz also seems to help with the crackling
-- chris_disco for his work with the m3u and the scummvm.ini settings
 
 ## Work in Progress
 
@@ -68,6 +67,7 @@ e.g. `scumm:monkey`
 
 - [MinUI](https://github.com/shauninman/MinUI) by Shaun Inman
 - [PakUI](https://github.com/tenlevels/PakUI) project for the libretro core.
+- chris_disco for his work with the m3u and the scummvm.ini settings
 
 ## License
 
