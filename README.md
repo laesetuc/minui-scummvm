@@ -20,11 +20,21 @@ Note: The platform folder name is based on the name of your device. For example,
 
 ## Usage
 
-1. Create the /Roms/ScummVM (SCUMMVM)/ directory if you haven't already.
-2. Copy your game into this directory e.g. /Roms/ScummVM (SCUMMVM)/The Secret of Monkey Island/
-3. Create a shortcut file e.g. /Roms/ScummVM (SCUMMVM)/The Secret of Monkey Island/The Secret of Monkey Island
+1. Create the `/Roms/ScummVM (SCUMMVM)/` directory if you haven't already.
+2. Copy your game into this directory e.g. `/Roms/ScummVM (SCUMMVM)/The Secret of Monkey Island/`
+3. Create a shortcut file e.g. `/Roms/ScummVM (SCUMMVM)/The Secret of Monkey Island/The Secret of Monkey Island.scummvm`
 4. Edit the shortcut file and insert approrpriate the ScummVM ID from the [ScummVM Compatibility list](https://www.scummvm.org/compatibility/)
-e.g. scumm:monkey
+e.g. `scumm:monkey`
+5. Create a m3u file pointing to the shortcut file e.g. `/Roms/ScummVM (SCUMMVM)/The Secret of Monkey Island/The Secret of Moneky Island.m3u`
+6. Edit the m3u file and insert the name of the shortcut file.  e.g. `The Secret of Monkey Island.scummvm`
+
+```
+/Roms/ScummVM (SCUMMVM)/The Secret of Monkey Island/
+  The Secret of Monkey Island.scummvm   << contains "scumm:monkey"
+  The Secret of Moneky Island.m3u       << contains "The Secret of Monkey Island.scummvm"
+  ...game files...
+  ...game files...
+```
 
 **Default key bindings:**
 - A button / L1 button = Left click
@@ -42,7 +52,8 @@ e.g. scumm:monkey
 - NextUI suspend and sleep is working - power button behaves as per normal.
 - CPU is set to Powersave by default, to overcome choppy audio
 - Use NextUI Menu > Emulator > RetroPad mapping to remap buttons to ScummVM/mouse/keyboard controls
-
+- Use the NextUI menu to quit.  The 'Quit' function from the ScummVM launcher causes NextUI to hang for some reason.
+- 
 - pablodaniel : you can avoid music crackling if you set a fixed cpu speed in the nextui frontend menu, either powersave or normal
 - pablodaniel : emulator options > timing > framerate cap to 60 hz also seems to help with the crackling
 
